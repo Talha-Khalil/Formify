@@ -1,0 +1,10 @@
+.header_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header_info{
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
