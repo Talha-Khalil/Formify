@@ -1,3 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500&display=swap');
+.new_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: first baseline;
+}
+.new_form img{
+    height: 80px;
+    width:70px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.new_form img:hover{
+    transform: scale(1.08);
+}
+.new_form span{
+    font-family: 'Roboto', sans-serif;
+    color: whitesmoke;
+    font-size: 25px;
+}
+.header_title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    color: whitesmoke;
+    letter-spacing: 2px;
+}
 .header_container{
     position: sticky;
     margin: 0 10px;
@@ -5,12 +32,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: white;
-
 }
 .header_info{
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .header_search{
     background-color: whitesmoke;
