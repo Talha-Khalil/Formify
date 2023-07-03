@@ -7,10 +7,10 @@ import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 
 function App() {
   return (
-    
-      <div className="App">
+    <div className="app">
       <Header/>
-      </div> 
+    </div>
+ 
     
   )
 }
